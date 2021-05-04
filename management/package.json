@@ -1,0 +1,19 @@
+{
+  "name": "management",
+  "version": "0.0.1",
+  "description": "Degratis Management API",
+  "main": "index.js",
+  "repository": "https://github.com/degratis/api",
+  "author": "dtelaroli",
+  "license": "Apache-2.0",
+  "private": false,
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "apollo-server": "=2.24.0",
+    "graphql": "=15.5.0",
+    "graphql-scalars": "^1.9.3",
+    "lodash": "^4.17.21"
+  }
+}
