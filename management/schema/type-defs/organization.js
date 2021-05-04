@@ -35,7 +35,7 @@ const type = gql`
 
   extend type Query {
     """ Recovery a list of organizations """
-    listOrganizations(id: ID!): OrganizationConnection
+    listOrganizations(nextToken: String, limit: Int): OrganizationConnection
     """ Looking for organizations """
     searchOrganizations(id: ID!): OrganizationConnection
     """ Recovery an organizations """

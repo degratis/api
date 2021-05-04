@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Organization Query should list organizations 1`] = `
+Object {
+  "data": Object {
+    "listOrganizations": Object {
+      "items": Array [
+        Object {
+          "createdAt": 2021-05-01T00:00:00.000Z,
+          "id": "123",
+          "name": "Hello World",
+          "slug": "Hello World",
+          "status": "PENDING",
+          "updatedAt": 2021-05-01T00:00:00.000Z,
+        },
+        Object {
+          "createdAt": 2021-05-01T00:00:00.000Z,
+          "id": "123",
+          "name": "Hello World",
+          "slug": "Hello World",
+          "status": "PENDING",
+          "updatedAt": 2021-05-01T00:00:00.000Z,
+        },
+      ],
+      "nextToken": "Hello World",
+    },
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
+
+exports[`Organization should get one organization 1`] = `
+Object {
+  "data": Object {
+    "getOrganization": Object {
+      "createdAt": 2021-05-01T00:00:00.000Z,
+      "id": "123",
+      "name": "Hello World",
+      "slug": "Hello World",
+      "status": "PENDING",
+      "updatedAt": 2021-05-01T00:00:00.000Z,
+    },
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;

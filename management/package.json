@@ -8,12 +8,17 @@
   "license": "Apache-2.0",
   "private": false,
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "test": "jest"
   },
   "dependencies": {
     "apollo-server": "=2.24.0",
     "graphql": "=15.5.0",
-    "graphql-scalars": "^1.9.3",
-    "lodash": "^4.17.21"
+    "graphql-scalars": "=1.9.3",
+    "lodash": "=4.17.21"
+  },
+  "devDependencies": {
+    "apollo-server-testing": "=2.24.0",
+    "jest": "=26.6.3"    
   }
 }
